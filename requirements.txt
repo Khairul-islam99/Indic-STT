@@ -1,0 +1,16 @@
+# requirements.txt - Bengali ASR API (FastAPI + Transformers)
+
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+transformers==4.45.1
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-multipart==0.0.9
+python-dotenv==1.0.1
+huggingface_hub>=0.23.0
+onnxruntime-gpu
+soundfile==0.12.1
+#conda install pytorch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 pytorch-cuda=12.4 -c pytorch -c nvidia -y
+# Optional (for better logging / monitoring in production)
+# structlog==24.4.0
+# gunicorn==22.0.0
